@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" name="Test" parallel="classes">
+    <classes>
+      <class name="TestNG.MultipleTestCases"/>
+      <class name="Shoes_TestNG.Redtape_Shoes"/>
+      <class name="Bike_TestNG.BMW_Bike"/>
+      <class name="Shoes_TestNG.Adidas_Shoes"/>
+      <class name="Bike_TestNG.Jawa_Bike"/>
+      <class name="Shoes_TestNG.Puma_Shoes"/>
+      <class name="Shoes_TestNG.Nike_Shoes"/>
+      <class name="Bike_TestNG.Ducati_Bike"/>
+      <class name="Bike_TestNG.RoyalEnfield_Bike"/>
+      <class name="Bike_TestNG.Triumph_Bike"/>
+      <class name="Shoes_TestNG.Hrx_Shoes"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
